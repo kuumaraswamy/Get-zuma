@@ -1,0 +1,43 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+   table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  }
+  
+  th {
+     background-color: hsl(204, 23%, 72%);
+    color: black; 
+    font-weight: bolder;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 400px;
+  }
+ 
+  
+
+  
