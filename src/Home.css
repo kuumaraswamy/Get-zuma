@@ -38,6 +38,28 @@
     width: 400px;
   }
  
+
+
+  @media screen and (max-width: 600px) {
+    input[type="text"] {
+      width: 100%;
+    }
+    
+    td {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    th, td {
+      padding: 8px;
+    }
+    
+    td {
+      font-size: 12px;
+    }
+  }
+
   
 
   
